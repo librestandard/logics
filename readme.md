@@ -1,4 +1,4 @@
-# Libre Operational and Governance Instructions for Company Structure (LOGICS)
+# 📏 Libre Operational and Governance Instructions for Company Structure (LOGICS)
 
 | Attribute               | Details                                                                 |
 | :---------------------- | :---------------------------------------------------------------------- |
