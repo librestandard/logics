@@ -1,9 +1,9 @@
-# Libre Operational and Governance Instructions for Company Structure (LOGICS) - V1 Draft Specification
+# Libre Operational and Governance Instructions for Company Structure V1 (LOGICS) - Draft Specification
 
 | Attribute               | Details                                                                 |
 | :---------------------- | :---------------------------------------------------------------------- |
 | **Governing Board:**    | [Libre Collective][librecollective]                                     |
-| **Title:**              | **Libre Operational and Governance Instructions for Company Structure** |
+| **Title:**              | **LIBRE OPERATIONAL AND GOVERNANCE INSTRUCTIONS FOR COMPANY STRUCTURE** |
 | **Status:**             | `DRAFT`                                                                 |
 | **Version:**            | `V1`                                                                    |
 | **Last Updated:**       | `2026-08-26`                                                            |
@@ -67,7 +67,7 @@ Level 0: <group>/           --> Optional parent holding, conglomerate, brand gro
 Level 1: <company>/         --> The operating company, legal entity, subsidiary, or independent business unit
 Level 2: <module>/          --> Primary operational business module (from the 16 standard LOGICS modules)
 Level 3: <category>/        --> Standard business-information category
-Level 4: <entry>              --> Dynamic content organization (Subcategory, State, Date, Workspace, Record)
+Level 4: <entry>            --> Dynamic content organization (Subcategory, State, Date, Workspace, Record)
 ```
 
 **Path breakdown examples:**
@@ -1470,13 +1470,13 @@ or superseded by an organizational change:
 An implementation, storage system, toolchain, or daemon is considered **LOGICS Conforming** if and only if it satisfies
 all mandatory clauses across the specification:
 
-| Requirement ID   | Specification Clause | Level | Mandatory Requirement Summary                                    |
-| :--------------- | :------------------- | :---- | :--------------------------------------------------------------- |
-| `LOGICS-REQ-001` | §1 / §2              | MUST  | Follow five-level hierarchy and single canonical home principle. |
-| `LOGICS-REQ-002` | §3                   | MUST  | Comply with lowercase alphanumeric names and character sets.     |
-| `LOGICS-REQ-003` | §4                   | MUST  | Restrict structural identifiers to standard modules/categories.  |
-| `LOGICS-REQ-004` | §5                   | MUST  | Conform to EBNF grammar and precedence cascade sequence.         |
-| `LOGICS-REQ-005` | §6                   | MUST  | Enforce synthetic public data, secrets isolation, and prefixes.  |
+| Requirement ID           | Specification Clause | Level | Mandatory Requirement Summary                                    |
+| :----------------------- | :------------------- | :---- | :--------------------------------------------------------------- |
+| `LOGICS-REQUIREMENT-001` | §1 / §2              | MUST  | Follow five-level hierarchy and single canonical home principle. |
+| `LOGICS-REQUIREMENT-002` | §3                   | MUST  | Comply with lowercase alphanumeric names and character sets.     |
+| `LOGICS-REQUIREMENT-003` | §4                   | MUST  | Restrict structural identifiers to standard modules/categories.  |
+| `LOGICS-REQUIREMENT-004` | §5                   | MUST  | Conform to EBNF grammar and precedence cascade sequence.         |
+| `LOGICS-REQUIREMENT-005` | §6                   | MUST  | Enforce synthetic public data, secrets isolation, and prefixes.  |
 
 ---
 

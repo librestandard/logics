@@ -1,20 +1,20 @@
 # Libre Operational and Governance Instructions for Company Structure (LOGICS)
 
-| Attribute               | Details                                                                             |
-| :---------------------- | :---------------------------------------------------------------------------------- |
-| **Governing Board:**    | [Libre Collective][librecollective]                                                 |
-| **Title:**              | **LIBRE OPERATIONAL AND GOVERNANCE INSTRUCTIONS FOR COMPANY STRUCTURE**             |
-| **Status:**             | `DRAFT`                                                                             |
-| **Version:**            | `V1`                                                                                |
-| **Last Updated:**       | `2026-08-26`                                                                        |
-| **Classification:**     | [Libre Standard][librestandard]                                                     |
-| **Libre Type:**         | `LIBRE-STANDARD`                                                                    |
-| **Libre Identifier:**   | `LOGICS`                                                                            |
-| **Specification File:** | [logics-v1.md][specification]                                                       |
-| **Documentation:**      | [librestandard.github.io/documentation/logics][documentation]                       |
-| **Authors:**            | [Contributors][contributors]                                                        |
-| **License:**            | [Libre Single Source License V1 (LSSLV1)][lsslv1]                                   |
-| **Feedback:**           | [Submit Feedback][feedback]                                                         |
+| Attribute               | Details                                                                 |
+| :---------------------- | :---------------------------------------------------------------------- |
+| **Governing Board:**    | [Libre Collective][librecollective]                                     |
+| **Title:**              | **LIBRE OPERATIONAL AND GOVERNANCE INSTRUCTIONS FOR COMPANY STRUCTURE** |
+| **Status:**             | `DRAFT`                                                                 |
+| **Version:**            | `V1`                                                                    |
+| **Last Updated:**       | `2026-08-26`                                                            |
+| **Classification:**     | [Libre Standard][librestandard]                                         |
+| **Libre Type:**         | `LIBRE-STANDARD`                                                        |
+| **Libre Identifier:**   | `LOGICS`                                                                |
+| **Specification File:** | [logics-v1.md][specification]                                           |
+| **Documentation:**      | [librestandard.github.io/documentation/logics][documentation]           |
+| **Authors:**            | [Contributors][contributors]                                            |
+| **License:**            | [Libre Single Source License V1 (LSSLV1)][lsslv1]                       |
+| **Feedback:**           | [Submit Feedback][feedback]                                             |
 
 ---
 
@@ -74,13 +74,13 @@ Level 3: <category>/  --> Standard business information category (such as invoic
 Level 4: <entry>      --> Dynamic records, dates, states, workspaces, and files
 ```
 
-| Level | Name | Purpose | Example |
-| :--- | :--- | :--- | :--- |
-| **Level 0** | `<group>` | Optional group or parent organization | `acme-group/` |
-| **Level 1** | `<company>` | Operating company or business boundary | `acme-tech/` |
-| **Level 2** | `<module>` | Core operational business module | `finance/` |
-| **Level 3** | `<category>` | Standard business information category | `invoice/` |
-| **Level 4** | `<entry>` | Specific dates, workspaces, and record files | `2026/2026-08-20-invoice-001.pdf` |
+| Level       | Name         | Purpose                                      | Example                           |
+| :---------- | :----------- | :------------------------------------------- | :-------------------------------- |
+| **Level 0** | `<group>`    | Optional group or parent organization        | `acme-group/`                     |
+| **Level 1** | `<company>`  | Operating company or business boundary       | `acme-tech/`                      |
+| **Level 2** | `<module>`   | Core operational business module             | `finance/`                        |
+| **Level 3** | `<category>` | Standard business information category       | `invoice/`                        |
+| **Level 4** | `<entry>`    | Specific dates, workspaces, and record files | `2026/2026-08-20-invoice-001.pdf` |
 
 ---
 
@@ -88,12 +88,12 @@ Level 4: <entry>      --> Dynamic records, dates, states, workspaces, and files
 
 Implementations, tools, and systems governed by LOGICS must satisfy the following technical requirements:
 
-| Conformance Area           | Compliant Standard          | Examples                       | Prohibited Anti-Patterns        |
-| :------------------------- | :-------------------------- | :----------------------------- | :------------------------------ |
-| **Character Set**          | Lowercase alphanumeric only | `invoice/`, `legal-agreements` | `Finance/`, `Legal Agreements/` |
-| **Word Separators**        | Single hyphens only         | `tax-returns/`, `annual-plan`  | `tax_returns/`, `tax returns/`  |
-| **Structural Renaming**    | Fixed Level 0 to 3 names    | `finance/tax/`                 | Renaming standard modules       |
-| **Temporary Files**        | Standard prefixes only      | `temporary-draft.pdf`          | `temp/`, `tmp/`, `_drafts/`     |
+| Conformance Area        | Compliant Standard          | Examples                       | Prohibited Anti-Patterns        |
+| :---------------------- | :-------------------------- | :----------------------------- | :------------------------------ |
+| **Character Set**       | Lowercase alphanumeric only | `invoice/`, `legal-agreements` | `Finance/`, `Legal Agreements/` |
+| **Word Separators**     | Single hyphens only         | `tax-returns/`, `annual-plan`  | `tax_returns/`, `tax returns/`  |
+| **Structural Renaming** | Fixed Level 0 to 3 names    | `finance/tax/`                 | Renaming standard modules       |
+| **Temporary Files**     | Standard prefixes only      | `temporary-draft.pdf`          | `temp/`, `tmp/`, `_drafts/`     |
 
 ---
 
