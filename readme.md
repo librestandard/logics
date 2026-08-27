@@ -130,6 +130,17 @@ Phase 4: Automated Governance and Toolchain Integration
   meta-governance rules.
 - **Libre Collective:** Governed openly by the **[Libre Collective][librecollective]**.
 
+## 7 License and Attribution
+
+All documentation, specifications, configuration assets, and templates in this repository are released under the
+[Libre Single Source License V1 (LSSLV1)][lsslv1], unless otherwise noted.
+
+Individual standards published within the **[Libre Standard][librestandard-website]** framework are independent works
+and are governed by their respective licenses, which are provided directly within their dedicated repositories.
+
+The license of a particular standard should therefore be consulted when adopting, redistributing, or incorporating
+that standard into another project.
+
 [librecollective]: https://librecollective.github.io/
 [librestandard]: https://librestandard.github.io/
 [specification]: ./logics-v1.md
